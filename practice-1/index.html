@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="modal">
+    <div class="error-message"></div>
+    <div class="modal__content">
+      <h1>Стать партнёром проекта</h1>
+      <form action="/" class="modal__content-form">
+
+        <div class="modal__contactInfo">
+          <div class="modal__contactInfo-inputs">
+            <div class="modal__input">
+              <label>✱ Название организации</label>
+              <input type="text" required>
+            </div>
+            <div class="modal__input">
+              <label>✱ Телефон</label>
+              <input type="tel" class="phone-number" required>
+            </div>
+            <div class="modal__input">
+              <label>✱ E-mail</label>
+              <input type="email" required>
+            </div>
+          </div>
+          
+          <div class="modal__contactInfo-image-container">
+            <span>✱ Логотип (jpeg, png)</span>
+            <div class="close-btn">
+              <img src="imgs/x.svg" alt="">
+            </div>
+            <div class="add-img">
+              <div class="add-img-btn">
+                <img src="imgs/add.svg" alt="">
+              </div>
+              <p>Выберите файл</p>
+            </div>
+            <img src="imgs/profile-pic.png" alt="">
+          </div>
+        </div>
+        
+        <div class="modal__input">
+          <label>✱ Напраление</label>
+          <select required >
+            <option value="">Выбрать</option>
+            <option>Экология</option>
+            <option>Экология</option>
+            <option>Экология</option>
+          </select>
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/globe.png" alt="globe">
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/vk.png" alt="vkontakte">
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/dno.png" alt="odnoklassniki">
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/fb.png" alt="facebook">
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/inst.png" alt="instagram">
+        </div>
+
+        <div class="modal__input">
+          <input type="text" required>
+          <img src="imgs/yt.png" alt="youtube">
+        </div>
+
+        <div class="modal__input">
+          <label>Руководитель</label>
+          <input type="text" required>
+        </div>
+        <div class="modal__btn">
+          <input class="modal__submit-btn" type="submit" value="Стать партнёром проекта" required>
+        </div>
+        <button class="modal__close-btn">Отменить</button>
+      </form>
+    </div>
+  </section>
+
+  <button class="open-modal-btn">Стать партнером проекта</button>
+  
+  <script src="app.js"></script>
+</body>
+</html>
